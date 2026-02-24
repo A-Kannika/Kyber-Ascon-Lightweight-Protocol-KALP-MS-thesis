@@ -1,0 +1,59 @@
+{
+  "batch_throughput": {
+    "n_uavs": 4,
+    "pkts_per_uav": 50,
+    "trials": 30,
+    "kalp_iqm_ms": 0.2632,
+    "ligkyx_iqm_ms": 0.7301,
+    "speedup": 2.775,
+    "improvement_pct": 64.0
+  },
+  "broadcast_latency": {
+    "n_uavs": 4,
+    "trials": 500,
+    "kalp_total_us": 6.552,
+    "ligkyx_total_us": 13.692,
+    "speedup": 2.09
+  },
+  "wire_overhead_arithmetic": {
+    "tag_saving_per_pkt_bytes": 16,
+    "handshake_saving_per_uav_bytes": 36,
+    "scenarios": [
+      {
+        "uavs": 1,
+        "pkts": 100,
+        "total_saving_bytes": 1636
+      },
+      {
+        "uavs": 4,
+        "pkts": 50,
+        "total_saving_bytes": 3344
+      },
+      {
+        "uavs": 4,
+        "pkts": 100,
+        "total_saving_bytes": 6544
+      },
+      {
+        "uavs": 10,
+        "pkts": 50,
+        "total_saving_bytes": 8360
+      },
+      {
+        "uavs": 10,
+        "pkts": 100,
+        "total_saving_bytes": 16360
+      },
+      {
+        "uavs": 20,
+        "pkts": 50,
+        "total_saving_bytes": 16720
+      },
+      {
+        "uavs": 20,
+        "pkts": 100,
+        "total_saving_bytes": 32720
+      }
+    ]
+  }
+}

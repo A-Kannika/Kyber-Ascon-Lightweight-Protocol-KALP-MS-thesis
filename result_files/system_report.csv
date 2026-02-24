@@ -1,0 +1,17 @@
+Property,Value
+OS,Linux 6.6.113+
+OS Version,#1 SMP Mon Feb  2 12:27:57 UTC 2026
+Architecture,x86_64
+Kernel,Linux version 6.6.113+ (builder@e24020cfdd04) (Chromium OS 17.0_pre498229-r33 cl
+CPU,Intel(R) Xeon(R) CPU @ 2.20GHz
+CPU Cores,2
+CPU Cache L2,256 KiB (1 instance)
+CPU Cache L3,55 MiB (1 instance)
+CPU Max MHz,Unknown
+RAM Total (GB),12.67
+RAM Available (GB),11.52
+Python,3.12.12
+GCC,gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0
+libc,libc.so.6
+Runtime,Google Colab (COLAB_RELEASE_TAG=release-colab-external_20260220-060048_RC00)
+Session timestamp,2026-02-24 06:42:12

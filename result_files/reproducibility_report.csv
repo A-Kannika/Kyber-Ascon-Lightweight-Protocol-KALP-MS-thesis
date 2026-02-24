@@ -1,0 +1,24 @@
+Check,Status,Value,Note
+OS,✓,Linux 6.6.113+,
+Python ≥ 3.8,✓,3.12.12,
+Runtime environment,✓,Google Colab (COLAB_RELEASE_TAG=release-colab-external_20260220-060048_RC00),
+GCC available,✓,gcc (Ubuntu 11.4.0-1ubuntu1~22.04.2) 11.4.0,
+libc,✓,libc.so.6,libc version affects ctypes call overhead in timed loops
+CPU model,✓,Intel(R) Xeon(R) CPU @ 2.20GHz,
+CPU MHz,⚠ ,2200.246,Frequency scaling governor not accessible — cannot confirm 'performance' mode
+Available RAM > 30%,✓,11.52 GB (91% of 12.67 GB),
+libascon_core.so present,✓,15.4 KB,
+libascon_core.so SHA-256,✓,261a227d915b8e41f8089b9050c8ec2ada7c12ee10b7934f0d080f30299f6383,Include this in thesis appendix to identify the exact binary tested
+libascon_core.so freshness,✓,Compiled 74 min ago,
+ascon_mac() callable,✓,ab3d5639baa41ed2a9789e552e2b4ea6,
+Compile flags documented,⚠ ,Not explicitly saved,"Add to Cell 0: open('cell0_compile_flags.txt','w').write('<your flags here>') Expected: -O3 -march=native"
+Package: pqcrypto (ml_kem_512),✓,0.4.0,
+Package: kyber-py,✓,1.2.0,
+Package: numpy,✓,2.0.2,
+Package: pandas,✓,2.2.2,
+Package: matplotlib,✓,3.10.0,
+Package: statistics,✓,importable,
+Package: ctypes,✓,importable,
+Package: psutil,✓,5.9.5,
+pqcrypto version,✓,0.4.0,
+kyber-py decaps available,✓,"v1.2.0, decaps=yes",

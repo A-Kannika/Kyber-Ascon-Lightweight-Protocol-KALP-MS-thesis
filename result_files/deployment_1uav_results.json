@@ -1,0 +1,24 @@
+{
+  "handshake_overhead_bytes": {
+    "kalp": 1902,
+    "ligkyx": 1934,
+    "saving": 32
+  },
+  "handshake_crypto_iqm_ms": {
+    "kalp": 0.3771,
+    "ligkyx": 0.3933
+  },
+  "per_packet_256B": {
+    "kalp_ns": 3409.0,
+    "ligkyx_ns": 8144.5,
+    "speedup": 2.389,
+    "kalp_bytes": 329,
+    "ligkyx_bytes": 345
+  },
+  "session_100pkts_256B": {
+    "kalp_bytes": 34802,
+    "ligkyx_bytes": 36434,
+    "saving_bytes": 1632,
+    "saving_pct": 4.48
+  }
+}
